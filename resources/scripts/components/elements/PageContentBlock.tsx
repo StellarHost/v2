@@ -31,13 +31,13 @@ function PageContentBlock({ title, showFlashKey, className, children }: PageCont
                 <p css={tw`text-center text-neutral-500 text-xs`}>
                     <a
                         rel={'noopener nofollow noreferrer'}
-                        href={'https://pterodactyl.io'}
+                        href={'https://stellarhost.tech'}
                         target={'_blank'}
                         css={tw`no-underline text-neutral-500 hover:text-neutral-300`}
                     >
-                        Pterodactyl&reg;
+                        StellarHost
                     </a>
-                    &nbsp;&copy; 2015 - {new Date().getFullYear()}
+                    &nbsp;&copy; {new Date().getFullYear()}
                 </p>
             </ContentContainer>
         </>
